@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contador</title>
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        <header>
+            <h1>
+                Contador
+            </h1>
+        </header>
+        <main>
+            <div class="container">
+                <div class="centana">
+                    <div class="soma soma_centena">
+                        <button id="btn_soma_centana" onclick="sumCentena()">
+                            + 100
+                        </button>
+                    </div>
+                    <div class="num" id="num_centena">
+                        
+                    </div>
+                    <div class="sub sub_centena">
+                        <button id="btn_sub_centana" onclick="subCentena()">
+                            - 100
+                        </button>
+                    </div>
+                </div>
+                <div class ="dezena">
+                    <div class="soma soma_dezena">
+                        <button id="btn_soma_dezena" onclick="sumDezena()">
+                            + 10
+                        </button>
+                    </div>
+                    <div class="num" id="num_dezena">
+                        
+                    </div>
+                    <div class="sub sub_dezena">
+                        <button id="btn_sub_dezena" onclick="subDezena()">
+                            - 10
+                        </button>
+                    </div>
+                </div>
+                <div class="unidade">
+                    <div class="soma soma_unidade">
+                        <button id="btn_soma_unidade" onclick="sumUnidade()">
+                            + 1
+                        </button>
+                    </div>
+                    <div class="num" id="num_unidade">
+                        
+                    </div>
+                    <div class="soma sub_unidade">
+                        <button id="btn_sub_unidade" onclick="subUnidade()">
+                            - 1
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="reset">
+                <button id="btn_reset" onclick="reset()">
+                    RESET
+                </button>
+            </div>
+        </main>
+
+        
+        <script src="script.js"></script>
+    </body>
+</html>
